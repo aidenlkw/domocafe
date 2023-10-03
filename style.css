@@ -33,29 +33,29 @@ h2 {
   color: white;
 }
 
- .navbar-nav .nav-item {
-   margin-right: 10px; /* Add space between items */
-   position: relative;
- }
+.navbar-nav .nav-item {
+  margin-right: 10px;
+  position: relative;
+}
 
 .navbar-nav .nav-item::before {
-  content: "|"; /* Add vertical line content */
+  content: "|";
   position: absolute;
   top: 50%;
-  left: -5px; /* Adjust line position */
+  left: -5px;
   transform: translateY(-50%);
-  color: white; /* Line color */
+  color: white;
 }
 
 .navbar-nav .nav-item:first-child::before {
-  content: ""; /* No line for the first item */
+  content: "";
 }
 
 .navbar-nav .nav-link {
-  font-size: 18px; /* Increase font size */
-  color: white; /* Set text color to white */
-  padding-left: 15px; /* Add space after text */
-  margin-left: 25px; /* Add space from the left */
+  font-size: 18px;
+  color: white;
+  padding-left: 15px;
+  margin-left: 25px;
 }
 
 .container.py-3 {
